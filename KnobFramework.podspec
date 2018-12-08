@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'KnobFramework'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'A highly customisable and reusable iOS circular slider.'
 s.description      = <<-DESC
     KnobFramework is a highly customisable and reusable iOS circular slider that mimics the behaviour of a knob control. It uses no preset images and every one of its components is drawn completely in code making it extremely adaptable to every design and theme.
