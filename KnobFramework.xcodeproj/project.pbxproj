@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AF4F27CD21BC3B3200D39C60 /* KnobFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4F27CB21BC3B3200D39C60 /* KnobFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF4F27DA21BC3DD000D39C60 /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D321BC3DD000D39C60 /* CircularSlider.swift */; };
+		AF4F27DB21BC3DD000D39C60 /* CircularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D421BC3DD000D39C60 /* CircularLayer.swift */; };
+		AF4F27DC21BC3DD000D39C60 /* DotLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D521BC3DD000D39C60 /* DotLayer.swift */; };
+		AF4F27DD21BC3DD000D39C60 /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D621BC3DD000D39C60 /* KnobView.swift */; };
+		AF4F27DE21BC3DD000D39C60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D721BC3DD000D39C60 /* Extensions.swift */; };
+		AF4F27DF21BC3DD000D39C60 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D821BC3DD000D39C60 /* PointerView.swift */; };
+		AF4F27E021BC3DD000D39C60 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D921BC3DD000D39C60 /* DotView.swift */; };
+		FDE1C785BDA3FFA82992A815 /* libPods-KnobFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FDC350CB218A84F96BF04E /* libPods-KnobFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF4F27C821BC3B3200D39C60 /* KnobFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnobFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4F27CB21BC3B3200D39C60 /* KnobFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobFramework.h; sourceTree = "<group>"; };
 		AF4F27CC21BC3B3200D39C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4F27D321BC3DD000D39C60 /* CircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSlider.swift; sourceTree = "<group>"; };
+		AF4F27D421BC3DD000D39C60 /* CircularLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularLayer.swift; sourceTree = "<group>"; };
+		AF4F27D521BC3DD000D39C60 /* DotLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotLayer.swift; sourceTree = "<group>"; };
+		AF4F27D621BC3DD000D39C60 /* KnobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobView.swift; sourceTree = "<group>"; };
+		AF4F27D721BC3DD000D39C60 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF4F27D821BC3DD000D39C60 /* PointerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointerView.swift; sourceTree = "<group>"; };
+		AF4F27D921BC3DD000D39C60 /* DotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		CD06525455A889F9C77DF83D /* Pods-KnobFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnobFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnobFramework/Pods-KnobFramework.release.xcconfig"; sourceTree = "<group>"; };
+		E79A965E70FE5C13B3DAFCB6 /* Pods-KnobFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnobFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnobFramework/Pods-KnobFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FDC350CB218A84F96BF04E /* libPods-KnobFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KnobFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE1C785BDA3FFA82992A815 /* libPods-KnobFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39B98C47AA8B4792DF7C299D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79A965E70FE5C13B3DAFCB6 /* Pods-KnobFramework.debug.xcconfig */,
+				CD06525455A889F9C77DF83D /* Pods-KnobFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF4F27BE21BC3B3200D39C60 = {
 			isa = PBXGroup;
 			children = (
 				AF4F27CA21BC3B3200D39C60 /* KnobFramework */,
 				AF4F27C921BC3B3200D39C60 /* Products */,
+				39B98C47AA8B4792DF7C299D /* Pods */,
+				B381CC5598F6BFBA4C33DBA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,9 +77,24 @@
 			isa = PBXGroup;
 			children = (
 				AF4F27CB21BC3B3200D39C60 /* KnobFramework.h */,
+				AF4F27D421BC3DD000D39C60 /* CircularLayer.swift */,
+				AF4F27D321BC3DD000D39C60 /* CircularSlider.swift */,
+				AF4F27D521BC3DD000D39C60 /* DotLayer.swift */,
+				AF4F27D921BC3DD000D39C60 /* DotView.swift */,
+				AF4F27D721BC3DD000D39C60 /* Extensions.swift */,
+				AF4F27D621BC3DD000D39C60 /* KnobView.swift */,
+				AF4F27D821BC3DD000D39C60 /* PointerView.swift */,
 				AF4F27CC21BC3B3200D39C60 /* Info.plist */,
 			);
 			path = KnobFramework;
+			sourceTree = "<group>";
+		};
+		B381CC5598F6BFBA4C33DBA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDC350CB218A84F96BF04E /* libPods-KnobFramework.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +115,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF4F27D021BC3B3200D39C60 /* Build configuration list for PBXNativeTarget "KnobFramework" */;
 			buildPhases = (
+				296DA0EAE7F5454A1D6F1995 /* [CP] Check Pods Manifest.lock */,
 				AF4F27C321BC3B3200D39C60 /* Headers */,
 				AF4F27C421BC3B3200D39C60 /* Sources */,
 				AF4F27C521BC3B3200D39C60 /* Frameworks */,
@@ -95,6 +141,7 @@
 				TargetAttributes = {
 					AF4F27C721BC3B3200D39C60 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -125,11 +172,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		296DA0EAE7F5454A1D6F1995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KnobFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF4F27C421BC3B3200D39C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4F27DE21BC3DD000D39C60 /* Extensions.swift in Sources */,
+				AF4F27E021BC3DD000D39C60 /* DotView.swift in Sources */,
+				AF4F27DB21BC3DD000D39C60 /* CircularLayer.swift in Sources */,
+				AF4F27DC21BC3DD000D39C60 /* DotLayer.swift in Sources */,
+				AF4F27DD21BC3DD000D39C60 /* KnobView.swift in Sources */,
+				AF4F27DF21BC3DD000D39C60 /* PointerView.swift in Sources */,
+				AF4F27DA21BC3DD000D39C60 /* CircularSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +335,9 @@
 		};
 		AF4F27D121BC3B3200D39C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79A965E70FE5C13B3DAFCB6 /* Pods-KnobFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ouraigua.KnobFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,7 +363,9 @@
 		};
 		AF4F27D221BC3B3200D39C60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD06525455A889F9C77DF83D /* Pods-KnobFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
