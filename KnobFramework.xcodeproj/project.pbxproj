@@ -19,6 +19,7 @@
 		AF4F27EA21BC6A8200D39C60 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E621BC6A8200D39C60 /* LICENSE */; };
 		AF4F27EB21BC6A8200D39C60 /* .codebeatsettings in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E721BC6A8200D39C60 /* .codebeatsettings */; };
 		AF4F27EC21BC6A8200D39C60 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E821BC6A8200D39C60 /* .swift-version */; };
+		AF4F280E21BC94A100D39C60 /* KnobFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AF4F280D21BC94A100D39C60 /* KnobFramework.podspec */; };
 		FDE1C785BDA3FFA82992A815 /* libPods-KnobFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FDC350CB218A84F96BF04E /* libPods-KnobFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		AF4F27E621BC6A8200D39C60 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AF4F27E721BC6A8200D39C60 /* .codebeatsettings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .codebeatsettings; sourceTree = "<group>"; };
 		AF4F27E821BC6A8200D39C60 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		AF4F280D21BC94A100D39C60 /* KnobFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KnobFramework.podspec; sourceTree = "<group>"; };
 		CD06525455A889F9C77DF83D /* Pods-KnobFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnobFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnobFramework/Pods-KnobFramework.release.xcconfig"; sourceTree = "<group>"; };
 		E79A965E70FE5C13B3DAFCB6 /* Pods-KnobFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnobFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnobFramework/Pods-KnobFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		F7FDC350CB218A84F96BF04E /* libPods-KnobFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KnobFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 		AF4F27E121BC691A00D39C60 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				AF4F280D21BC94A100D39C60 /* KnobFramework.podspec */,
 				AF4F27E221BC693000D39C60 /* README.md */,
 				AF4F27E621BC6A8200D39C60 /* LICENSE */,
 				AF4F27E721BC6A8200D39C60 /* .codebeatsettings */,
@@ -193,6 +196,7 @@
 				AF4F27E921BC6A8200D39C60 /* .gitignore in Resources */,
 				AF4F27EB21BC6A8200D39C60 /* .codebeatsettings in Resources */,
 				AF4F27EC21BC6A8200D39C60 /* .swift-version in Resources */,
+				AF4F280E21BC94A100D39C60 /* KnobFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
