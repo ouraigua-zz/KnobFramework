@@ -15,7 +15,6 @@
 		AF4F27DE21BC3DD000D39C60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D721BC3DD000D39C60 /* Extensions.swift */; };
 		AF4F27DF21BC3DD000D39C60 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D821BC3DD000D39C60 /* PointerView.swift */; };
 		AF4F27E021BC3DD000D39C60 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F27D921BC3DD000D39C60 /* DotView.swift */; };
-		AF4F27E421BC6A1F00D39C60 /* KnobFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E321BC6A1F00D39C60 /* KnobFramework.podspec */; };
 		AF4F27E921BC6A8200D39C60 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E521BC6A8200D39C60 /* .gitignore */; };
 		AF4F27EA21BC6A8200D39C60 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E621BC6A8200D39C60 /* LICENSE */; };
 		AF4F27EB21BC6A8200D39C60 /* .codebeatsettings in Resources */ = {isa = PBXBuildFile; fileRef = AF4F27E721BC6A8200D39C60 /* .codebeatsettings */; };
@@ -35,7 +34,6 @@
 		AF4F27D821BC3DD000D39C60 /* PointerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointerView.swift; sourceTree = "<group>"; };
 		AF4F27D921BC3DD000D39C60 /* DotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
 		AF4F27E221BC693000D39C60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AF4F27E321BC6A1F00D39C60 /* KnobFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KnobFramework.podspec; sourceTree = "<group>"; };
 		AF4F27E521BC6A8200D39C60 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AF4F27E621BC6A8200D39C60 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AF4F27E721BC6A8200D39C60 /* .codebeatsettings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .codebeatsettings; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 		AF4F27E121BC691A00D39C60 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				AF4F27E321BC6A1F00D39C60 /* KnobFramework.podspec */,
 				AF4F27E221BC693000D39C60 /* README.md */,
 				AF4F27E621BC6A8200D39C60 /* LICENSE */,
 				AF4F27E721BC6A8200D39C60 /* .codebeatsettings */,
@@ -194,7 +191,6 @@
 			files = (
 				AF4F27EA21BC6A8200D39C60 /* LICENSE in Resources */,
 				AF4F27E921BC6A8200D39C60 /* .gitignore in Resources */,
-				AF4F27E421BC6A1F00D39C60 /* KnobFramework.podspec in Resources */,
 				AF4F27EB21BC6A8200D39C60 /* .codebeatsettings in Resources */,
 				AF4F27EC21BC6A8200D39C60 /* .swift-version in Resources */,
 			);

@@ -38,9 +38,6 @@ pod 'KnobFramework'
 ## Usage
 1. Visually:
 
-```swift
-import KnobFramework
-```
 Drag a UIView to your storyboard, change its class of to CircularSlider and start visually customising the design to your liking.
 All the parameters are IBInspectable, so you can configure the slider straight from the attribute inspector tab, without having to write a single line of code.
 
