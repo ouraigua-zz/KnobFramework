@@ -65,6 +65,7 @@ The default value of this property is 0.0.
 */
 open private (set) var value: Float = 0
 ```
+
 To set the slider's value use the following:
 ```swift
 /**
@@ -73,6 +74,11 @@ Set the `value`.
 - parameter isPercentage:  specifies if newValue is in the range [0.0, 1.0] or not
 */
 open func setValue(_ newValue: Float, isPercentage: Bool = false)
+```
+
+In order to get value change notifications, use the `Target-Action` pattern which is an inherent part of UIControl, like so:
+``` swift
+circularSlider.addTarget(target: Any?, action: Selector, for: UIControl.valueChanged)
 ```
 
 To Control the text's appearance, use these:
