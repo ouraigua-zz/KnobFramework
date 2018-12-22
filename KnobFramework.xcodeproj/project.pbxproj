@@ -89,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				AF4F27CB21BC3B3200D39C60 /* KnobFramework.h */,
-				AF4F27D421BC3DD000D39C60 /* CircularLayer.swift */,
 				AF4F27D321BC3DD000D39C60 /* CircularSlider.swift */,
+				AF4F27D421BC3DD000D39C60 /* CircularLayer.swift */,
 				AF4F27D521BC3DD000D39C60 /* DotLayer.swift */,
 				AF4F27D921BC3DD000D39C60 /* DotView.swift */,
 				AF4F27D721BC3DD000D39C60 /* Extensions.swift */,
