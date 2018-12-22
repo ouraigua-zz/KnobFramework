@@ -69,8 +69,8 @@ The slider's `value` property is both { get set } and it is designed to work sim
 
 ```swift
 /**
-This value will be pinned to minimumValue/maximumValue
-The default value of this property is 0.0. 
+  This value will be pinned to minimumValue/maximumValue
+  The default value of this property is 0.0. 
 */
 @IBInspectable open var value: CGFloat  // { get set }
 
@@ -79,15 +79,15 @@ The default value of this property is 0.0.
 In order to get value change notifications, use the `Target-Action` pattern which is an inherent part of UIControl, like so:
 ``` swift
 /**
-Add target/action for particular event.
-- parameter target:     The object whose action method is called
-- parameter action:     A selector identifying the action method to be called
-- parameter Event:      The control-specific events for which the action method is called
-So far I've only implemented the following:
+  Add target/action for particular event.
+  - parameter target:     The object whose action method is called
+  - parameter action:     A selector identifying the action method to be called
+  - parameter Event:      The control-specific events for which the action method is called
+                          So far I've only implemented the following:
 
-UIControl.Event.valueChanged
-UIControl.Event.editingDidBegin
-UIControl.Event.editingDidEnd
+                          UIControl.Event.valueChanged
+                          UIControl.Event.editingDidBegin
+                          UIControl.Event.editingDidEnd
 */
 circularSlider.addTarget(target: Any?, action: Selector, for: UIControl.Event)
 
